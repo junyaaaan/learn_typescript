@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const sample2_11_bar_1 = require("./sample2-11-bar");
+const bar2 = require("./sample2-11-bar");
+const bar3 = require("./sample2-11-bar");
+console.log(sample2_11_bar_1.hello());
+console.log(sample2_11_bar_1.default());
+console.log(bar2.hello());
+console.log(bar2.default);
+console.log(bar3.hello);
+console.log(bar3.default);
+const buzz = require("./sample2-11-buzz");
+const buzz2 = require("./sample2-11-buzz");
+console.log(buzz());
+console.log(buzz2());
